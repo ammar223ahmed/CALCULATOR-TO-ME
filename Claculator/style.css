@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+    background-color: #ecf0f3;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #1fc9ea; */
+    background-image: url("https://wallpaperaccess.com/full/1116882.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.calc{
+    box-shadow: 6px 6px 13px #fff,
+                6px 6px 13px rgba(0, 0, 0,.16);
+                border-radius: 28px;
+                padding: 16px;
+                cursor: pointer;
+
+}
+input{
+    height: 68px;
+    width: 258px;
+    box-shadow:inset -6px -6px 13px #fff,
+    inset 6px 6px 13px rgba(0, 0, 0,.16);
+    background-color: #ecf0f3;
+    border: none;
+    border-radius: 32px;
+    color: rgb(26, 25, 25);
+    text-align: end;
+    margin: 40px 0px 30px 0px;
+    padding: 20px;
+    font-size: 40px ;
+}
+.button-row{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+.button-row button{
+padding: 2px 25px;
+box-shadow: inset 6px 6px 13px #fff,
+      6px 6px 13px rgba(0, 0, 0,.16);
+background-color: #ecf0f3;
+border: none;
+border-radius: 50%;
+width: 50px;
+height: 50px;
+margin: 10px;
+/* color: rgb(26, 25, 25); */
+cursor: pointer;
+font-size: 18px;
+font-weight: bold;
+padding: 7px;
+}
+.button-row  .equal{
+    width: 95px;
+    margin-left: 30px;
+    height: 45px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 13px #fff,
+      6px 6px 13px rgba(0, 0, 0,.16);
+background-color: #ecf0f3;
+}
+.marqueemy{
+background-color: rgb(0, 0, 0, 0.9);
+color: rgb(255, 255, 255);
+z-index: 2;
+position: fixed;
+width: 100%;
+bottom: 0;
+padding: 5px;
+font-weight: bold;
+font-size: 22px;
+word-spacing: 10px;
+}
